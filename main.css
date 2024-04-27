@@ -1,0 +1,832 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: "Nunito", sans-serif;
+}
+
+.conteiner {
+    align-items: center;
+    height: 96px;
+    width: 100%;
+    padding: 2px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.2);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1100;
+    box-shadow: 0px 10px 50px -25px #000;
+}
+
+header {
+    align-items: center;
+    display: flex;
+}
+
+header h1 {
+    background-color: rgb(1, 24, 110);
+    font-size: 40px;
+    padding: 0px 120px 0px 385px;
+}
+
+header img {
+    margin-left: 25px;
+    width: 170px;
+    height: 60px;
+}
+
+header .igual {
+    transition: all ease 0.4s;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 10px;
+    color: #2231a9;
+    width: 7%;
+    font-weight: 700;
+    font-size: medium;
+    font-family: "Nunito", sans-serif;
+}
+
+header .igual:hover {
+    transition: all ease 0.4s;
+    background-color: rgba(130, 130, 130, 0.1);
+}
+
+header .diferente {
+    transition: all ease 0.5s;
+    font-weight: 900;
+    font-size: medium;
+    font-family: "Nunito", sans-serif;
+    padding: 12px 35px 12px 35px;
+    color: aliceblue;
+    border: none;
+    border-radius: 25px;
+    border-color: black;
+    background-color: #2231a9;
+    margin-right: 1%;
+}
+
+header .diferente:hover {
+    transition: all ease 0.5s;
+    background-color: #071bae;
+    color: #fff;
+}
+
+.TudoGG {
+    position: absolute;
+}
+
+.CaiXa1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('Imagens/imagenFundo1.jpeg');
+    margin-top: 95px;
+    width: 100%;
+}
+
+.caiXa {
+    padding: 10px 48px;
+}
+
+div .formulario {
+    width: 41%;
+    padding: 30px 30px;
+    background-color: #fff;
+    text-align: normarl;
+}
+
+.formulario img {
+    margin-right: 7px;
+}
+
+.formulario h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    background-color: #fff;
+    font-size: 50px;
+}
+
+.two {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+}
+
+.twoXS {
+    letter-spacing: -0.7px;
+    font-weight: 600;
+    border: none;
+    border-bottom: 4px solid #fff;
+    background-color: #fff;
+    margin-right: 5px;
+    padding: 15px 15px 15px 15px;
+}
+
+.twoXS:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #000;
+    background-color: rgba(162, 162, 162, 0.1);
+}
+
+.twoXS2 {
+    letter-spacing: -0.7px;
+    margin-left: 5px;
+    border: none;
+    border-bottom: 4px solid #fff;
+    background-color: #fff;
+    padding: 15px 15px 15px 15px;
+}
+
+.twoXS2:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #000;
+    background-color: rgba(162, 162, 162, 0.1);
+}
+
+.formulario  {
+    margin-top: 5px;
+}
+section .UMum {
+    border-top: 1px solid rgba(30, 30, 30, 0.2);
+}
+
+section .form {
+    margin-top: 14px;
+    border-radius: 3px;
+    border: 1px solid rgba(30, 30, 30, 0.2);
+    padding: 5px 5px;
+}
+
+.DOISdois select {
+    position: relative;
+    float: left;
+}
+
+.DOISdois select option {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+section .DOISdois {
+    display: flex;
+    padding: 5px 5px;
+}
+
+.fght1 {
+    padding: 0% 0% 25% 0%;
+}
+
+.fght1 p {
+    font-weight: 600;
+    font-size: 90%;
+    display: inline;
+}
+
+section .form1 {
+    margin-top: 8px;
+    border-radius: 3px;
+    border: 1px solid rgba(30, 30, 30, 0.2);
+    padding: 5px 5px;
+}
+
+section .form2 {
+    padding: 5px 5px;
+    width: 50%;
+    margin-right: 7.5px;
+    border-radius: 3px;
+    border: 1px solid rgba(30, 30, 30, 0.2);
+}
+
+section .form3 {
+    padding: 5px 5px;
+    width: 50%;
+    margin-left: 7.5px;
+    border-radius: 3px;
+    border: 1px solid rgba(30, 30, 30, 0.2);
+}
+
+section .ospeda {
+    margin-bottom: 25px;
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+}
+
+section .about {
+    outline: none;
+    padding: 0px 38px;
+    border: none;
+    display: flex;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 100%;
+    height: 17px;
+}
+
+section .about2 {
+    padding: 0px  38px;
+    align-items: center;
+    display: flex;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 100%;
+    height: 17px;
+}
+
+section .One {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Oatmeal, sans-serif;
+    color: #fff;
+    background-color: #2231a9;
+    padding: 5px 100px 5px 100px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    transition: all ease 0.5s;
+    box-shadow: 0px 10px 40px -10px #000000;
+}
+
+section .One:hover {
+    transition: all ease 0.5s;
+    padding: 0px 0px 0px 0px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background-color: #071bae;
+}
+
+.ospeda select {
+    outline: none;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+
+.juntosZ {
+    padding: 0px 60px 60px 60px;
+    width: 1519px;
+}
+
+#Bti {
+    width: 100%;
+}
+
+.TudoX {
+    margin-top: 65px;
+    background-color: #fff;
+}
+
+.banner0 {
+}
+
+.banner0 .fght {
+    padding: 2%;
+}
+
+.geral0 img {
+    width: 60%;
+}
+
+.geral0 {
+    display: flex;
+}
+
+.XM7 {font-size: 35px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+
+.XM8 {
+    font-size: 100px;
+}
+
+.XM8 b {
+    font-weight: 900;
+}
+
+.fght {
+    padding: 0%;
+    border: 24px solid #2231a9;
+}
+
+.fght1 {
+    justify-content: space-between;
+}
+
+.fght2 button {
+    font-weight: bold;
+    color: #fff;
+    transition: all ease 0.5s;
+    font-family: Oatmeal, sans-serif;
+    font-size: 19px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: #2231a9;
+}
+
+.fght2 button:hover {
+    font-size: 17px;
+    transition: all ease 0.5s;
+    background-color: #071bae;
+    cursor: pointer;
+}
+
+.geral0 h1{
+    margin: 0% 0% 5% 0%;
+    font-weight: 800;
+}
+
+.banner1 {
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.Ghtr2 {
+    border-color: 2px solid #000;
+}
+
+#chSS9 {
+    display: flex;
+}
+
+.xjtP0 {
+    width: 132%;
+    display: flex;
+    padding:20px;
+    background-color: #D5BFD7;
+}
+
+.xjtP0 img {
+    position: relative;
+    width: 100%;
+}
+
+.Ghtr2 h1 {
+    letter-spacing: -1px;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+}
+
+.Ghtr2 p {
+    font-weight: 600;
+    padding-bottom: 80px;
+    margin-top: 38px;
+}
+
+.Kll90 {
+}
+
+.CyI8 {
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    width: 50%;
+    height: 50px;
+    margin-top: 45px;
+    position: relative;
+}
+
+.CyI8:hover {
+    cursor: pointer;
+}
+
+.CyI5 {
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    width: 50%;
+    height: 50px;
+    margin-top: 15px;
+    position: relative;
+    background: none;
+}
+
+.CyI5:hover {
+    cursor: pointer;
+}
+
+
+
+.Ghtr5 {
+    padding: 30px;
+    width: 100%;
+    background-image: url('./imagens/imagenFundo1.jpeg');
+    background-size: 100% 100%;
+}
+
+.Ghtr0 {
+    padding: 25px;
+    width: 60%;
+    background-color: #fff;
+}
+
+.Ghtr0 h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+
+.Ghtr0 p {
+    font-weight: 600;
+    font-size: 90%;
+    margin-top: 25px;
+}
+
+.Ghtr0 button {
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background-color: #2231a9;
+    border: none;
+    margin-top: 50px;
+    transition: all ease 0.5s;
+}
+
+.Ghtr0 button:hover {
+    transition: all ease 0.5s;
+    font-size: 13.5px;
+}
+
+.banner2 {
+    background-color: #C5C9BA;
+    margin-top: 65px;
+}
+
+#Bti {
+    display: flex;
+}
+
+.qn2Q {
+    padding: 30px;
+}
+
+.hGfd5 h1 {
+}
+
+.WEry5 {
+    padding: 30px;
+    width: 100%;
+    background-image: url('./imagens/imagenFundo1.jpeg');
+    background-size: 100% 100%;
+}
+
+.TRe4 {
+    padding: 15px;
+    width: 60%;
+    background-color: #fff;
+}
+
+.TRe4 h1 {
+    letter-spacing: -2px;
+    font-weight: 500;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+}
+
+.TRe4 p {
+    font-weight: 600;
+    margin-top: 9px;
+}
+
+
+.T0pImv  {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 25px;
+    margin-top: 85px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+
+.T0pIm0 {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 25px;
+    margin-top: 45px;
+    background: none;
+    border: none;
+}
+
+.T0pIm0:hover {
+}
+
+.TRe4 button {
+    cursor: pointer;
+    padding: 15px 25px;
+    margin-top: 35px;
+    border: none;
+    font-weight: 700;
+    background: none;
+}
+
+.hGfd5 h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    width: 100%;
+}
+
+.hGfd5 p {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.banner3 {
+    margin-top: 65px;
+}
+
+.Ass2 {
+    padding: 30px;
+    background-color: #FBF5E7;
+}
+
+#XJç {
+    display: flex;
+}
+
+.XJç4 {
+}
+
+.HHu9 h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    width: 100%;
+}
+
+.HHu9 p {
+    font-weight: 600;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+.HPç5 {
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 15px 50px;
+    background-color: #fff;
+    margin-top: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.HHu1 {
+    width: 90%;
+    padding: 25px;
+    background-size: 100% 100%;
+    background-image: url('./imagens/imagenFundo1.jpeg');
+}
+
+.HHuZ h1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.HHuZ p {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.HHuZ {
+    padding: 15px;
+    width: 65%;
+    background-color: #fff;
+}
+
+#Btt98 {
+    cursor: pointer;
+    font-weight: bold;
+    background: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+}
+
+.HPç0 {
+    font-weight: bold;
+    background: none;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner4 {
+    margin-top: 65px;
+}
+
+.ZjT0 {
+    display: flex;
+}
+
+.ZjT1 {
+    width: 100%;
+}
+
+.ZjT1 {
+    width: 43%;
+    padding: 50px;
+    background-color: #3957BD;
+}
+
+.ZjT1 h3 {
+    color: #F5F5F7;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.ZjT1 hr {
+    height: 1px;
+}
+
+.ZjT1 h2 {
+    margin: 20px 0 ;
+    color: #F5F5F7;
+    font-family: "Roboto", sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -2px;flex-direction: column;
+}
+
+.ZjT1z {
+    width: 80%;
+}
+
+.ZjT1 button {
+    border: none;
+    background-color: #F5F5F7;
+    border-radius: 30px;
+    margin-top: 70px;
+    padding: 13px 30px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.ZjT1 button:hover {
+    transition: all ease .3s;
+    font-weight: 800;
+}
+
+.ZjT7 {
+    background-color: #3957BD;
+}
+
+.ZjT2 {
+    width: 35%;
+    padding: 40px;
+    background-color: #FBF5E7;
+}
+
+.ZjT2 h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+}
+
+.ZjT2 button {
+    font-weight: bold;
+    padding: 13px 32px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 165px;
+    color: #F5F5F7;
+    background-color: #3957BD;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.ZjT2 button:hover {
+    transition: all ease .3s;
+    background-color: #284cc1;
+}
+
+.section2 {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 12%;
+    background-color: #F5F5F7;
+}
+
+.Appt-8 h1 {
+    background: none;
+    margin: 45px 322px 45px 322px;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+}
+
+.Appt-9 {
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+}
+.Appt-9 img {
+    transition: all ease .50s;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 15px;
+    height: 180px;
+}
+
+.Appt-9 :hover {
+    transition: all ease .50s;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.Appt-9 a {
+    text-decoration: none;
+}
+
+.Appt-9 p {
+    color: #000000;
+    font-size: 20px;
+}
+
+.Appt-9 p:hover {
+    
+}
+
+.Appt-0 {
+    margin-right: 25px;
+    border-radius: 15px;
+    box-shadow: -0px 40px 37px -15px rgba(0, 0, 0, 0.3);
+}
+
+.Appt-0:hover {
+    color: #3957BD;
+}
+
+.Appt-0 p {
+    margin: 0 35px;
+}
+
+.Appt-1 {
+    margin-right: 25px;
+    border-radius: 15px;
+    box-shadow: -0px 40px 37px -15px rgba(0, 0, 0, 0.3);
+}
+
+.Appt-1 p {
+    margin: 0 85px;
+}
+
+.Appt-2 {
+    margin-right: 25px;
+    border-radius: 15px;
+    box-shadow: -0px 40px 37px -15px rgba(0, 0, 0, 0.3);
+}
+
+.Appt-2 p {
+    margin: 0 55px;
+}
+
+.Appt-3 {
+    margin-right: 25px;
+    border-radius: 15px;
+    box-shadow: -0px 40px 37px -15px rgba(0, 0, 0, 0.3);
+}
+
+.Appt-3 p {
+    margin: 0 40px;
+}
+
+#Ul8 {
+    padding: 150px;
+}
+
+.igual a {
+    color: #2231a9;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+
+    
+
+}
+
+
+
